@@ -1,19 +1,34 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
-import Imas from '../img/Tiramisu.jpg'
+import Imasfoo from '../img/Tiramisu.jpg'
+import Logo from '../img/Diente_Fino_Logo.png'
 
 const Footer = (props) => {
   return (
     <div>
       <Container>
-        <Row className="saber-mas">
-          <Col xs="1"></Col>
-          <Col xs="5" className="col-ima"><img className="imas" src={Imas}/></Col>
-          <Col xs="5" className="col-text">
-            <h3>Lorem Ipsum</h3>
-            <p>Nulla sed sodales magna, a euismod justo. Aenean posuere nisi quis tellus fermentum, a ullamcorper magna placerat. Mauris consequat bibendum eros quis rhoncus. Aenean dictum porta tempus. Nulla facilisi. Vestibulum sed efficitur nisi. Cras fermentum ante sit amet odio consequat ornare. Vestibulum in ultrices lacus. Aenean ut ipsum augue. Nulla lobortis diam at pellentesque commodo. Aenean malesuada metus eget purus porttitor vehicula. Pellentesque varius dictum elementum.</p>
+        <Row className="footer">
+          <Col className="foo1"><img className="imasfoo" src={Logo}/></Col>
+          <Col className="foo1">
+            <h3>Menu Footer 1</h3>
+            <ul>
+                <li>Nulla sed</li>
+                <li>Sodales magna</li>
+                <li>Euismod justo</li>
+            </ul>
           </Col>
-          <Col xs="1"></Col>
+          <Col className="foo1">
+            <h3>Menu Footer 2</h3>
+            <ul>
+                <li>Nulla sed</li>
+                <li>Sodales magna</li>
+                <li>Euismod justo</li>
+            </ul>
+          </Col>
+          <Col className="foo1">
+            <h3>Menu Footer 3</h3>
+            <p>Nulla sed sodales magna, a euismod justo. Aenean, a euismod justo. Aenean .</p>
+          </Col>
         </Row>
       </Container>
     </div>

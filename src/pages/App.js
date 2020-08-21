@@ -12,6 +12,9 @@ function App() {
         <div className="carrusel"><Carrusel/></div>
         <div className="sabermas"><Mas/></div>
         <div className="footer"><Footer/></div>
+        <div className="barr-footer">
+          <p>Esta pagina fue echa por Victor Abraham</p>
+        </div>
     </div>
   );
 }
