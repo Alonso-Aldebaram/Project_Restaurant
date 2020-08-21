@@ -2,9 +2,29 @@
   width: 100vw; 
   height: 100vh;
 }
-.carrusel {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
+.logo {
+  max-width: 100px;
+}
+.bg-light {
+  background-color: #fff !important;
+}
+.imas{
+  max-width: 500px;
+}
+.col-ima {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.saber-mas {
+  height: 100vh;
+}
+.col-text {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.col-text h3 {
+  margin-left: -40px;
+  margin-right: 40px;
 }

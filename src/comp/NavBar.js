@@ -13,6 +13,7 @@ import {
   DropdownItem,
   NavbarText
 } from 'reactstrap';
+import Logo from '../img/Diente_Fino_Logo.png'
 
 const Menu = (props) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,7 @@ const Menu = (props) => {
   return (
     <div>
       <Navbar color="light" light expand="md">
-        <NavbarBrand href="/">reactstrap</NavbarBrand>
+        <NavbarBrand href="/"><img className="logo" src={Logo}/></NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
